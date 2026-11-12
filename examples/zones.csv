@@ -1,0 +1,11 @@
+zone,order,regions,method,enabled,cost,min_order,requires
+United States,1,US,flat_rate,yes,9.95,,
+United States,1,US,free_shipping,yes,,75.00,min_amount
+California,2,US:CA,flat_rate,yes,5.00,,
+Europe,3,DE;FR,flat_rate,yes,19.95,,
+Europe,3,DE;FR,free_shipping,yes,,,none
+Rest of the World,4,*,flat_rate,yes,,,
+Antarctica,5,AQ,flat_rate,no,12.00,,
+Test Zone,6,ZZZ,flat_rate,yes,abc,,
+United States,7,CA,local_pickup,yes,,,
+Empty Zone,8,,,,,,

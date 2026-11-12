@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "woo-shipping-doctor"
+version = "1.0.0"
+description = "Audit a WooCommerce shipping zones CSV export for configuration mistakes"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+
+[project.scripts]
+woo-shipping-doctor = "woo_shipping_doctor:main_entry"
+
+[tool.setuptools]
+py-modules = ["woo_shipping_doctor"]

@@ -1,0 +1,4 @@
+zone,order,regions,method,enabled,cost,min_order,requires
+United States,1,US,flat_rate,yes,9.95,,
+United States,1,US,free_shipping,yes,,,none
+Rest of the World,2,*,flat_rate,yes,24.95,,
